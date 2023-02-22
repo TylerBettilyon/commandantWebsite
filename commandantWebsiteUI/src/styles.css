@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body {    
+    background-color: #0e0e0e;
+    font-family: georgia, serif;
+    font-weight: Normal;
+    font-size: 15px;
+}
+
+/* app-backgroundimage {
+    background-image: url("src/assets/HAUS_OF_THE_COMMANDANT.png"), #0e0e0e;  
+    background-position: left top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */

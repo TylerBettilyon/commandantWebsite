@@ -1,0 +1,29 @@
+/* body.p {
+    background-image: url("src/assets/HAUS_OF_THE_COMMANDANT.png");
+    /* background-position: left top; */
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* } */
+
+body {
+    margin: 0px;
+    background: #0e0e0e;
+    height: 100%
+}
+
+img {
+    cursor: default;
+}
+
+
+#backgroundImage {
+    /* background-image: url"http://localhost:4200/HAUS_OF_THE_COMMANDANT.png"; */
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 800px;
+    height: 2000px;
+}
