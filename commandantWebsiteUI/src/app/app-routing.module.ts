@@ -6,14 +6,54 @@ import {HeaderComponent} from "./component/header/header.component";
 //This seems to be where the routes can be mapped out!
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
-    data: {title: 'Home'}
+    data: {title: 'LandingPage'}
   },
   {
-    path: 'header',
+    path: 'welcome',
+    component: HomeComponent,
+    data: {title: 'Welcome'}
+  },
+  {
+    path: 'worship',
     component: HeaderComponent,
-    data: {title: 'Header'}
+    data: {title: 'Worship'}
+  },
+  {
+    path: 'about',
+    component: HomeComponent,
+    data: {title: 'About'}
+  },
+  {
+    path: 'reviews',
+    component: HeaderComponent,
+    data: {title: 'Reviews'}
+  },
+  {
+    path: 'protocol',
+    component: HomeComponent,
+    data: {title: 'Protocol'}
+  },
+  {
+    path: 'scheduling',
+    component: HeaderComponent,
+    data: {title: 'scheduling'}
+  },
+  {
+    path: 'commandments',
+    component: HomeComponent,
+    data: {title: 'commandments'}
+  },
+  {
+    path: 'expectations',
+    component: HeaderComponent,
+    data: {title: 'expectations'}
+  },
+  {
+    path: 'covid-protocol',
+    component: HeaderComponent,
+    data: {title: 'Covid-Protocol'}
   }
 ];
 

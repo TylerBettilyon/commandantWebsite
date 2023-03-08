@@ -9,16 +9,13 @@ import { BackgroundimageComponent } from './component/backgroundimage/background
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    HeaderComponent,
-    BackgroundimageComponent
+    AppComponent, HomeComponent, HeaderComponent, BackgroundimageComponent
     ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [BackgroundimageComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
